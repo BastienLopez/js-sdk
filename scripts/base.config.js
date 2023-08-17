@@ -13,7 +13,7 @@ const esmConfig = {
   ],
   entryPoints: ['src/index.ts'],
   bundle: true,
-  sourcemap: true,
+  sourcemap: 'inline',
   target: 'esnext',
   outfile: pkg['esm:esbuild'],
   format: 'esm',
